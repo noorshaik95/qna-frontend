@@ -29,7 +29,7 @@ const Home = () => {
                         <Grid columns={2} stackable textAlign={"center"} mobile={16}>
                             <Grid.Row>
                                 <Grid.Column verticalAlign={"middle"}>
-                                    <Button size={"medium"} color={"google plus"}  icon={"google plus"} content={"Google"}/>
+                                        <Button size={"medium"} color={"google plus"}  icon={"google plus"} content={"Google"}/>
                                     <Divider hidden/>
                                     <Button size={"medium"} color="facebook" icon={"facebook"} content={"Facebook"} />
                                 </Grid.Column>

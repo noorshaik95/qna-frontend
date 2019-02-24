@@ -1,6 +1,6 @@
-import AnswerList from "./AnswerList";
-import CreateAnswer from "./CreateAnswer";
-import EditAnswer from "./EditAnswer";
+import AnswerList from './AnswerList';
+import CreateAnswer from './CreateAnswer';
+import EditAnswer from './EditAnswer';
 
 export default {
     AnswerList,

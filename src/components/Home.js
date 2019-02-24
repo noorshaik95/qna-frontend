@@ -1,16 +1,16 @@
-import  React  from "react";
-import { Form, Button, Segment, Grid, Divider, Header} from "semantic-ui-react"
+import  React  from 'react';
+import { Form, Button, Segment, Grid, Divider, Header} from 'semantic-ui-react'
 
 const Home = () => {
     return(
         <Segment placeholder>
-            <Grid columns={2} stackable textAlign = {"center"} divided>
-                <Grid.Row verticalAlign= {"middle"}>
-                    <Grid.Column verticalAlign= {"middle"}>
+            <Grid columns={2} stackable textAlign = {'center'} divided>
+                <Grid.Row verticalAlign= {'middle'}>
+                    <Grid.Column verticalAlign= {'middle'}>
                         <Header>Sign Up</Header>
-                        <Form size={"large"}>
-                            <Form.Group widths={"equal"} unstackable={false}>
-                                <Form.Input label={"Full Name"} placeholder={"Full Name"} />
+                        <Form size={'large'}>
+                            <Form.Group widths={'equal'} unstackable={false}>
+                                <Form.Input label={'Full Name'} placeholder={'Full Name'} />
                                 <Form.Input label={"Email"} width={8} placeholder={"Email"} />
                             </Form.Group>
                             <Form.Group unstackable={false}>
